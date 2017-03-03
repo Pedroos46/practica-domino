@@ -1,10 +1,58 @@
-@import url('https://fonts.googleapis.com/css?family=Indie+Flower|Open+Sans:300');
+html{  }
+
 body, input, button {
-    font-family: 'Open Sans', sans-serif;
     font-size: 1em;
 }
 
 h1 {
-    font-family: 'Indie Flower', cursive;
-    font-size: 4em;
+  font-family: 'Montserrat', sans-serif;
+}
+
+body{
+  background-color: #eeeeee;
+}
+
+footer {
+  background-color: dimgrey;
+  width: 100%;
+  bottom: 0;
+  position: fixed;
+}
+
+:root{
+  --espaiEntreFitxes: 10px;
+}
+
+#fitxesFooter{
+  margin: 0 auto;
+  width: 50%;
+}
+
+#f1{
+  float: left;
+  margin: var(--espaiEntreFitxes);
+}
+#f2{
+   float: left;
+   margin: var(--espaiEntreFitxes);
+}
+#f3{
+   float: left;
+   margin: var(--espaiEntreFitxes);
+}
+#f4{
+   float: left;
+   margin: var(--espaiEntreFitxes);
+}
+#f5{
+   float: left;
+   margin: var(--espaiEntreFitxes);
+}
+#f6{
+   float: left;
+   margin: var(--espaiEntreFitxes);
+}
+#f7{
+   float: left;
+   margin: var(--espaiEntreFitxes);
 }

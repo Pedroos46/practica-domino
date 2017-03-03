@@ -16,6 +16,6 @@
  * ORIGEN
  * Desenvolupament Aplicacions Web. Jesuïtes el Clot
  */
-var server = require("./E06_servidorXat");
+var server = require("./servidorDomino");
 
 server.iniciar();
